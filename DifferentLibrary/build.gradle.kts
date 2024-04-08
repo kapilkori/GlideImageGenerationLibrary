@@ -39,6 +39,7 @@ dependencies {
 //    implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(project(":app"))
+    embeddedKotlin(":app")
 
     testImplementation(libs.junit)
 
@@ -51,7 +52,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.kapilkori"
             artifactId = "glide-image-loader"
-            version = "0.0.5"
+            version = "0.0.6"
 
             afterEvaluate {
                 from(components["release"])
