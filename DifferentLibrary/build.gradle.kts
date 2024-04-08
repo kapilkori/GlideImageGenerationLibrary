@@ -50,7 +50,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.kapilkori"
             artifactId = "glide-image-loader"
-            version = "0.0.3"
+            version = "0.0.4"
 
             afterEvaluate {
                 from(components["release"])
