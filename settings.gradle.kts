@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "GlideImageGenerationLibrary"
 include(":app")
- 
+include(":DifferentLibrary")
